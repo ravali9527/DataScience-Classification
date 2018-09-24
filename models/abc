@@ -1,1 +1,9 @@
 
+Logistic Regression:
+
+I used Logistic regression model to classify the data
+
+I wasn’t able to plot the data due to issue with data type conversions in Label encoding()
+
+sns plots
+
