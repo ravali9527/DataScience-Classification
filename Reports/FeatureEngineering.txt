@@ -1,0 +1,35 @@
+Feature Engineering :
+Feature Engineering is the process of extracting or creating new features that would help to gain better performance 
+
+
+Given Data set:
+This is a dataset comprised of all of Shakespeare's plays. It includes the following:
+
+The first column is the Data-Line, it just keeps track of all the rows there are.
+The second column is the play that the lines are from.
+The third column is the actual line being spoken at any given time.
+The fourth column is the Act-Scene-Line from which any given line is from.
+The fifth column is the player who is saying any given line.
+The sixth column is the line being spoken.
+
+
+Features that can be added to existing data sets:
+
+If we can add certain features like frequency of voice and gender, combination of these two features can be used to determine the player.
+
+Feature Selection:
+
+I used Weka tool for feature selection.
+
+Steps:
+Loading csv file and selecting Correlation ranking method for attribute selection using breadth first search so It ranked the features based on that approach 
+
+Play,Player Line are ranked as the best attributes for determining player
+
+Steps 
+Deleted rows which contains empty cells
+Converted object types to numeric values using label encoding scheme 
+Divided data into test_predictors,Train_predictors, Test_Targets,train_targets
+Trained model using train predictors train targets
+Making the model predict given test targets
+Computing Accuracy score
