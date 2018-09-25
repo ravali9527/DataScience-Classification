@@ -33,4 +33,4 @@ Divided data into test_predictors,Train_predictors, Test_Targets,train_targets
 Trained model using train predictors train targets
 Making the model predict given test targets
 Computing Accuracy score
-Prediction Accuract from the model 0.05938852170605297
+Prediction Accuract from the model 0.05938852170605297(59%)
